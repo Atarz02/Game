@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Update Totals</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Validate Form</a></li>
+        <li><a href="imageCycle.html">Image Cycle</a></li>
+        <li><a href="imageGalley.html">Image Gallery</a></li>
+        <li><a href="slidingPanels.html">Sliding Panels</a></li>
+        <li><a href="calcultor.html">Calculate</a></li>
+        <li><a href="OpenWindow.html">Opening Windows</a></li>
+        <li><a href="table.html">Table</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <h1>Item List</h1>
+  <ul id="item-list">
+    <!-- Items will be dynamically added here -->
+  </ul>
+  <p>Total: <span id="total">$0.00</span></p>
+  <input type="text" id="itemName" placeholder="Item Name">
+  <input type="number" id="itemPrice" placeholder="Item Price">
+  <button onclick="addItem()">Add Item</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
